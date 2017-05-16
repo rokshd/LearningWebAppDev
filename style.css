@@ -1,20 +1,12 @@
-p.first {
-  color: red;
-  margin: 10px;
-  padding: 20px;
+a {
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
-p {
-  color: blue;
-  margin: 10px;
-  padding: 20px;
+a:visited {
+  color: tomato;
 }
 
-.second {
-  color: green;
-}
-
-h1 {
-  background: black;
-  color: white;
+a:hover {
+  text-decoration: underline;
 }
