@@ -1,7 +1,17 @@
-p {
+p.first {
   color: red;
   margin: 10px;
   padding: 20px;
+}
+
+p {
+  color: blue;
+  margin: 10px;
+  padding: 20px;
+}
+
+.second {
+  color: green;
 }
 
 h1 {
