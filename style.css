@@ -1,24 +1,20 @@
-main {
-  width: 500px;
-  margin: auto;
-  background: gray;
-  overflow: auto;
-}
-
-nav {
-  width: 80px;
-  float: right;
-  padding: 10px;
-}
-
-nav p {
+* {
   margin: 0;
   padding: 0;
 }
 
-p {
-  margin: 0;
-  width: 380px;
+nav {
   float: left;
-  padding: 10px;
+  background: lightgray;
+}
+
+main {
+  background: darkgray;
+}
+
+
+
+footer {
+  background: gray;
+  clear: both;
 }
