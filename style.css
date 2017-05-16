@@ -1,16 +1,24 @@
-.content li {
-  color: blue;
+main {
+  width: 500px;
+  margin: auto;
+  background: gray;
+  overflow: auto;
 }
 
-ol {
-  border: 3px solid darksalmon;
-  border-radius: 10px;
+nav {
+  width: 80px;
+  float: right;
+  padding: 10px;
 }
 
-ul li:first-child {
-  color: green;
+nav p {
+  margin: 0;
+  padding: 0;
 }
 
-ul li:nth-child(3) {
-  color: pink;
+p {
+  margin: 0;
+  width: 380px;
+  float: left;
+  padding: 10px;
 }
