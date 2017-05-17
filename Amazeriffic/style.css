@@ -1,5 +1,11 @@
 body {
   background: #f9e933;
+  font-size: 100%;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header, main, footer {
@@ -14,11 +20,15 @@ header .container, main .container, footer .container {
 header {
   background: white;
   overflow: auto;
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid #ddd;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-style: italic;
+  font-size: 3em;
 }
 
 header nav {
@@ -29,6 +39,22 @@ header nav {
 main {
   background: white;
   overflow: auto;
+  padding: 40px;
+}
+
+main h2 {
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+main h3 {
+  font-size: 1.5em;
+  padding: 10px 0px 10px 0;
+}
+
+main ul {
+  list-style-type: circle;
+  margin-left: 20px;
 }
 
 main .left {
@@ -49,4 +75,19 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+footer {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
 }
