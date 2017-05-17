@@ -1,20 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 100%;
 }
 
-nav {
-  float: left;
-  background: lightgray;
+h1 {
+  font-size: xx-large;
 }
 
-main {
-  background: darkgray;
+h2 {
+  font-size: x-large;
 }
 
+.my {
+  font-size: larger;
+}
 
-
-footer {
-  background: gray;
-  clear: both;
+.important {
+  font-size: 1.2em;
 }
